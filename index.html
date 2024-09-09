@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>datalab landing page</title>
+    <link href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Figtree', sans-serif;
+            line-height: 1.6;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            background-color: #ffc105;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .container {
+            width: 100%;
+            max-width: 800px;
+            margin: 20px;
+            padding: 30px;
+            background-color: white;
+            border: 3px solid #000000; /* Changed to black border */
+            box-shadow: 32px 32px 0px 0px rgba(139, 69, 19, 0.75); /* Changed to brown shadow */
+        }
+        h1 {
+            color: #2c3e50;
+            text-align: center;
+        }
+        h2 {
+            color: #34495e;
+        }
+        a {
+            color: #d19d00;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline wavy #d19d00;
+            color: #a8630f;
+        }
+        .section {
+            margin-bottom: 30px;
+        }
+        i {
+            font-style: italic;
+        }
+        .fa-icon {
+            margin-right: 5px;
+            width: 20px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1><i>datalab</i></h1>
+        </header>
+
+        <main>
+            <section class="blurb">
+                <p><i>datalab</i> is an open source data management platform , which can be customised and hosted by individual chemistry and materials science labs.</p>
+                <p>
+                    The main aim of <i>datalab</i> is to provide a platform for capturing the significant amounts of long-tail experimental data and metadata produced in a typical lab, and enable storage, filtering and future data re-use by humans and machines. 
+                    The platform provides researchers with a way to record sample- and device-specific metadata, attach and sync raw data from instruments, and perform analysis and visualisation of many characterisation techniques in the browser (XRD, NMR, electrochemical cycling, TEM, TGA, Mass Spec, Raman).
+                    Importantly, datalab stores a network of interconnected research objects in the lab, such that individual pieces of data are stored with the context needed to make them scientifically useful.
+                </p>
+            </section>
+            <section class="section">
+                <h2>Resources</h2>
+                <ul>
+                    <li><a href="https://github.com/datalab-org"><i class="fa-brands fa-github fa-icon"></i>GitHub organisation</a></li>
+                    <li><a href="https://docs.datalab-org.io"><i class="fa-solid fa-book fa-icon"></i>Main documentation</a></li>
+                    <li><a href="https://api-docs.datalab-org.io"><i class="fa-brands fa-python fa-icon"></i>Python API package documentation</a></li>
+                    <li><a href="https://demo.datalab-org.io"><i class="fa-solid fa-globe fa-icon"></i>Demo deployment</a></li>
+                    <li><a href="https://purl.datalab-org.io"><i class="fa-solid fa-link fa-icon"></i>Persistent link resolution</a></li>
+                    <li><a href="https://join.slack.com/t/datalab-world/shared_invite/zt-2h58ev3pc-VV496~5je~QoT2TgFIwn4g"><i class="fa-brands fa-slack fa-icon"></i>Join us on Slack</a></li>
+                </ul>
+            </section>
+
+            <section class="section">
+                <h2>Developers</h2>
+                <ul>
+                    <li><a href="https://ml-evs.science">Dr Matthew Evans</a> (<a href="https://uclouvain.be/en/research-institutes/imcn/modl">UCLouvain</a>, <a href="https://matgenix.com">Matgenix</a> & <a href="https://datalab.industries"><i>datalab</i> industries ltd.</a>)</li>
+                    <li><a href="https://jdbocarsly.github.io/">Prof Josh Bocarsly</a> (<a href="https://www.uh.edu/nsm/chemistry/people/profiles/bocarsly/">University of Houston</a>)</li>
+                </ul>
+            </section>
+        </main>
+    </div>
+</body>
+</html>
